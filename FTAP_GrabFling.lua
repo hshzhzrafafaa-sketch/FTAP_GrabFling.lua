@@ -12,8 +12,7 @@ local power = 5000
 local lastFling = {}
 
 -- ===== UI =====
-local gui = Instance.new("ScreenGui", game.CoreGui)
-gui.Name = "FTAP_GrabFling"
+local gui = local gui = Instance.new("ScreenGui", gethui())= "FTAP_GrabFling"
 
 local frame = Instance.new("Frame", gui)
 frame.Size = UDim2.new(0, 260, 0, 240)
